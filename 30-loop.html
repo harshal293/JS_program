@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(84, 84, 84);
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: verdana;
+        font-size: 20px;
+    }
+</style>
+</head>
+
+<body>
+<body>
+    <h2>JS Loop</h2>
+    
+    <p id="A"></p>
+    
+    <script>
+        let text = "";
+
+        for (let i = 0; i < 5; i++) {
+            text += "The number is " + i + "<br>";
+        }
+
+        document.getElementById("A").innerHTML = text;
+    </script>
+</body>
+</html>
